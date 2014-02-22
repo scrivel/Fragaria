@@ -4,6 +4,14 @@
 <array>
 	<dict>
 		<key>name</key>
+		<string>SEScript</string>
+		<key>file</key>
+		<string>sescript</string>
+		<key>extensions</key>
+		<string>sescript</string>
+	</dict>
+	<dict>
+		<key>name</key>
 		<string>ActionScript</string>
 		<key>file</key>
 		<string>actionscript</string>
