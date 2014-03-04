@@ -40,16 +40,71 @@
 	<true/>
 	<key>keywords</key>
 	<array>
-		<string>layer</string>
-		<string>bgm</string>
-		<string>bg</string>
-		<string>text</string>
-		<string>chara</string>
-		<string>se</string>
-		<string>ui</string>
 		<string>null</string>
+		<string>true</string>
+		<string>false</string>
 	</array>
 	<key>autocompleteWords</key>
-	<array/>
+    <array>
+        <string>abstract</string>
+        <string>callMethod</string>
+        <string>wait</string>
+        <string>waitTap</string>
+        <string>waitText</string>
+        <string>waitAnimation</string>
+        <string>new</string>
+        <string>app</string>
+        <string>set</string>
+        <string>enable</string>
+        <string>alias</string>
+        <string>layer</string>
+        <string>new</string>
+        <string>at</string>
+        <string>clear</string>
+        <string>setAnchorPoint</string>
+        <string>setGravity</string>
+        <string>loadImage</string>
+        <string>clearImage</string>
+        <string>bg</string>
+        <string>border</string>
+        <string>shadowOffset</string>
+        <string>shadowColor</string>
+        <string>shadowOpacity</string>
+        <string>shadowRadius</string>
+        <string>beginAnimation</string>
+        <string>chainAnimation</string>
+        <string>commitAnimation</string>
+        <string>position</string>
+        <string>zPosition</string>
+        <string>size</string>
+        <string>show</string>
+        <string>hide</string>
+        <string>toggle</string>
+        <string>fadeIn</string>
+        <string>fadeOut</string>
+        <string>translate</string>
+        <string>translateZ</string>
+        <string>scale</string>
+        <string>rotate</string>
+        <string>rotateX</string>
+        <string>rotateY</string>
+        <string>opacity</string>
+        <string>text</string>
+        <string>setPrimary</string>
+        <string>setNameLayer</string>
+        <string>setName</string>
+        <string>setInterval</string>
+        <string>setFont</string>
+        <string>setCcolor</string>
+        <string>setLineSpacing</string>
+        <string>setText</string>
+        <string>start</string>
+        <string>pause</string>
+        <string>resume</string>
+        <string>clear</string>
+        <string>skip</string>
+        <string>padding</string>
+        <string>horizontalAlign</string>
+    </array>
 </dict>
 </plist>
