@@ -63,6 +63,7 @@
 		<string>skip</string>
 		<string>padding</string>
 		<string>horizontalAlign</string>
+		<string>animate</string>
 	</array>
 	<key>beginCommand</key>
 	<string></string>
