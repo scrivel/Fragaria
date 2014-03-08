@@ -66,6 +66,9 @@
 		<string>animate</string>
 		<string>load</string>
 		<string>clearAll</string>
+		<string>do</string>
+		<string>transact</string>
+		<string>define</string>
 	</array>
 	<key>beginCommand</key>
 	<string></string>
