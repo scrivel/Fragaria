@@ -64,6 +64,7 @@
 		<string>padding</string>
 		<string>horizontalAlign</string>
 		<string>animate</string>
+		<string>load</string>
 	</array>
 	<key>beginCommand</key>
 	<string></string>
