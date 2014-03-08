@@ -65,6 +65,7 @@
 		<string>horizontalAlign</string>
 		<string>animate</string>
 		<string>load</string>
+		<string>clearAll</string>
 	</array>
 	<key>beginCommand</key>
 	<string></string>
