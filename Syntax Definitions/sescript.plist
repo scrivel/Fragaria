@@ -69,6 +69,15 @@
 		<string>do</string>
 		<string>transact</string>
 		<string>define</string>
+		<string>character</string>
+		<string>mark</string>
+		<string>defineExpression</string>
+		<string>express</string>
+		<string>exit</string>
+		<string>appear</string>
+		<string>motion</string>
+		<string>defineMotion</string>
+		<string>chara</string>
 	</array>
 	<key>beginCommand</key>
 	<string></string>
