@@ -40,13 +40,10 @@ Unless required by applicable law or agreed to in writing, software distributed 
         
         imgBreakpoint0 = [MGSFragaria imageNamed:@"editor-breakpoint-0.png"];
         [imgBreakpoint0 setFlipped:YES];
-        [imgBreakpoint0 retain];
         imgBreakpoint1 = [MGSFragaria imageNamed:@"editor-breakpoint-1.png"];
         [imgBreakpoint1 setFlipped:YES];
-        [imgBreakpoint1 retain];
         imgBreakpoint2 = [MGSFragaria imageNamed:@"editor-breakpoint-2.png"];
         [imgBreakpoint2 setFlipped:YES];
-        [imgBreakpoint2 retain];
 
 		[self setContinuousSpellCheckingEnabled:NO];
 		[self setAllowsUndo:NO];
@@ -76,7 +73,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
               Does line wrapping make the issue worse?
              
              */
-            NSMutableParagraphStyle * style = [[[NSMutableParagraphStyle alloc] init] autorelease];
+            NSMutableParagraphStyle * style = [[NSMutableParagraphStyle alloc] init];
             [style setAlignment:NSRightTextAlignment];
             [style setLineSpacing:1.0];
             [style setMinimumLineHeight:11.0];
@@ -109,7 +106,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
  */
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
 {
-	if ([(NSString *)context isEqualToString:@"TextFontChanged"]) {
+	if ([(__bridge NSString *)context isEqualToString:@"TextFontChanged"]) {
 		[self setFont:[NSUnarchiver unarchiveObjectWithData:[SMLDefaults valueForKey:MGSFragariaPrefsTextFont]]];
 	} else {
 		[super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
@@ -220,14 +217,5 @@ Unless required by applicable law or agreed to in writing, software distributed 
 	return YES;
 }
 
-- (void) dealloc
-{
-    [imgBreakpoint0 release];
-    [imgBreakpoint1 release];
-    [imgBreakpoint2 release];
-    self.fileName = NULL;
-    self.breakpointLines = NULL;
-    [super dealloc];
-}
 
 @end

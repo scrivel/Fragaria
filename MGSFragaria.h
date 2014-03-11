@@ -59,8 +59,8 @@ extern NSString * const ro_MGSFOSyntaxColouring; // readonly
     NSSet* objectSetterKeys;
 }
 
-@property (nonatomic, readonly, assign) MGSExtraInterfaceController *extraInterfaceController;
-@property (nonatomic, retain) id docSpec;
+@property (nonatomic, readonly) MGSExtraInterfaceController *extraInterfaceController;
+@property (nonatomic, strong) id docSpec;
 
 // class methods
 + (id)currentInstance;
